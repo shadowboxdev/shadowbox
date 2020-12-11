@@ -43,9 +43,6 @@
     "marketing-e2e": {
       "tags": [],
       "implicitDependencies": ["marketing"]
-    },
-    "electron-ui": {
-      "tags": []
     }
   }
 }
