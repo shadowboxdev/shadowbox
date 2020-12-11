@@ -1,0 +1,62 @@
+<!-- <div class="example-container">
+  <h2>To do</h2>
+
+  <div
+    tsvDropList
+    #todoList="tsvDropList"
+    [tsvDropListData]="todo"
+    [tsvDropListConnectedTo]="[doneList]"
+    class="example-list"
+    (tsvDropListDropped)="drop($event)"
+  >
+    <div
+      class="example-box"
+      *ngFor="let item of todo"
+      tsvDrag
+      [tsvDragAnimate]="dragAnimate"
+    >
+      {{ item }}
+    </div>
+  </div>
+</div>
+
+<div class="example-container">
+  <h2>Done</h2>
+
+  <div
+    tsvDropList
+    #doneList="tsvDropList"
+    [tsvDropListData]="done"
+    [tsvDropListSortingDisabled]="true"
+    [tsvDropListConnectedTo]="[todoList]"
+    class="example-list"
+  >
+    <div
+      class="example-box"
+      *ngFor="let item of done"
+      tsvDrag
+      [tsvDragAnimate]="dragAnimate"
+    >
+      {{ item }}
+
+      <ng-template tsvDragPlaceholder [data]="item">
+        <div class="example-box done-list-placeholder">{{ item }}</div>
+      </ng-template>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div
+  fxLayout="row wrap"
+  fxLayoutAlign="start center"
+  tsvGrid
+  [tsvDropListData]="done"
+  tsvDropListOrientation="horizontal"
+>
+  <div id="drag-{{ i }}" tsvGridItem [tsvDragData]="item" fxLayout="column" class="grid-box" *ngFor="let item of done; let i = index">
+    {{ item }}
+  </div>
+</div> -->
+<div [style.height.%]="100">
+  <editor [init]="editorSettings" (onDrop)="onDrop($event)"></editor>
+</div>

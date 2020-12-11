@@ -1,0 +1,72 @@
+/**
+* Copyright (c) Tiny Technologies, Inc. All rights reserved.
+* Licensed under the LGPL or a commercial license.
+* For LGPL see License.txt in the project root for license information.
+* For commercial licenses see https://www.tiny.cloud/
+*/
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.4;
+  margin: 1rem;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 0.4rem;
+}
+figure {
+  display: table;
+  margin: 1rem auto;
+}
+figure figcaption {
+  color: #999;
+  display: block;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+hr {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+}
+code {
+  background-color: #e8e8e8;
+  border-radius: 3px;
+  padding: 0.1rem 0.2rem;
+}
+.tox-tinymce {
+  border-radius: 4px;
+}
+.tox .tox-textfield,
+.tox .tox-toolbar-textfield,
+.tox .tox-listboxfield .tox-listbox--select,
+.tox .tox-textarea {
+  border-color: #fff;
+}
+.tox .tox-menu,
+.tox .tox-dialog {
+  border-radius: 4px;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+.mce-content-body {
+  background: #424242;
+  color: #fff !important;
+}
+.mce-content-body:not([dir=rtl]) blockquote {
+  border-left: 2px solid #ccc;
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+}
+.mce-content-body[dir=rtl] blockquote {
+  border-right: 2px solid #ccc;
+  margin-right: 1.5rem;
+  padding-right: 1rem;
+}
+
+#my_id {
+    color: white;
+}
